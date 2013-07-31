@@ -1,0 +1,3 @@
+# Webmaster Tools Templates directory
+
+Template should be separated from the logic... Always...

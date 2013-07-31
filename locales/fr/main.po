@@ -1,0 +1,24 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+#: plugins/WebmasterTools/templates/index.php
+msgid "Webmaster Tools"
+msgstr "Outils pour Webmaster"
+
+msgid "Enter here you Google Analytics Account ID"
+msgstr "Entrez votre identifiant Google Analytics"
+
+msgid "Your Google Analytics account"
+msgstr "Votre identifiant Google Analytics"
+
+msgid "Enter here you Google Webmaster code"
+msgstr "Entrez ici votre code Google Webmaster Tools"
+
+msgid "Your Google WMT id"
+msgstr "Votre code Google Webmaster Tools"
+
+msgid "Enter here you\'re Bing Webmaster tool code"
+msgstr "Entrez ici votre code Bing pour Webmaster"
+
+msgid "Your Bing verify ID"
+msgstr "Votre code de vérification Bing"
