@@ -25,9 +25,11 @@ if (!defined('DC_CONTEXT_ADMIN')) { return; }
 include dirname(__FILE__) . DIRECTORY_SEPARATOR . 'class.webmastertools.php';
 
 $wmt = new webmasterTools($core);
+$wmt->doActionIfAny();
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
     $wmt->registerSettings();
+    $wmt->redirectToRoot();
 }
 
 include dirname(__FILE__) . DIRECTORY_SEPARATOR .  'templates' . DIRECTORY_SEPARATOR . 'index.php';

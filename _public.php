@@ -22,12 +22,6 @@
 
 if (!defined('DC_RC_PATH')) {return;}
 
-/*
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "555ec0a6-2896-4c46-9f2a-fd2e81d7029e", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>
-*/
-
 $core->addBehavior('publicHeadContent',  array('webmasterToolsPublicBehaviours','publicHeadContent'));
 $core->addBehavior('publicFooterContent',array('webmasterToolsPublicBehaviours','publicFooterContent'));
 
