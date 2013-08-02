@@ -63,7 +63,8 @@
             background: linear-gradient(#1d588a, #2e82c9);
         }
         .warning {
-            background: url(../plugins/WebmasterTools/templates/warning.png); width: 128px; height: 128px; float: left;
+            background: url(../plugins/WebmasterTools/templates/warning.png);
+            width: 128px; height: 128px; float: left;
         }
     </style>
     </head>
@@ -72,7 +73,7 @@
         <?php if (!empty($msg)): ?>
             <p class="message"><?php echo $msg; ?></p>
         <?php endif; ?>
-        <?php if ($wmt->haveOldConfig() && $wmt->showWarning()): ?>
+        <?php if ($wmt->haveOldConfig() && !$wmt->showWarning()): ?>
         <fieldset class="message error">
             <h2><?php echo __('Warning'); ?></h2>
             <div class="warning"></div>
