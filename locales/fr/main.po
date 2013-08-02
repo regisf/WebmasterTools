@@ -22,3 +22,28 @@ msgstr "Entrez ici votre code Bing pour Webmaster"
 
 msgid "Your Bing verify ID"
 msgstr "Votre code de vérification Bing"
+
+msgid "Some old Google tools plugin settings have been found."
+msgstr "Il reste des param&egrave;tre de l'ancien plugin Google Tools."
+
+msgid "What do you whish to do?"
+msgstr "Qu'est-ce que vous voulez faire ?"
+
+msgid "Use Google Tools configuration and remove settings"
+msgstr "Utiliser la configuration Google Tools et supprimer les reglages"
+
+msgid "Use old Google Tools configuration"
+msgstr "Utiliser les anciens reglages de Google Tools"
+
+msgid "Remove old Google Tools configuration"
+msgstr "Supprimer les anciens réglages de Google Tools"
+
+msgid "Don't show this message again"
+msgstr "Ne plus montrer ce message"
+
+msgid "If you enjoy <b>Webmaster Tools</b> plugin, you may desactivate Google Tools"
+msgstr "Si vous appr&eacute;ciez <b>Webmaster Tools</b>, vous deviez d&eacute;sactiver Google Tools"
+
+msgid "Deactivate it for me"
+msgstr "Le d&eacute;sactiver pour moi"
+

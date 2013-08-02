@@ -81,7 +81,7 @@
                 <p>
                     <?php
                         echo __("Some old Google tools plugin settings have been found.") . '<br />' .
-                             __("What do you whish to do ?");
+                             __("What do you whish to do?");
                     ?>
                 </p>
             </div>
@@ -96,13 +96,13 @@
                     <?php echo __('Remove old Google Tools configuration'); ?>
                 </a>
                 <a href="<?php echo $p_url; ?>&action=4" class="button wmt red">
-                    <?php echo __("Never mind and don't show this message again"); ?>
+                    <?php echo __("Don't show this message again"); ?>
                 </a>
             </p>
             <?php if ($core->plugins->moduleExists('googleTools')): ?>
             <p>
                 <em>
-                    If you enjoy <b>Webmaster Tools</b> plugin, you may desactivate Google Tools
+                    <?php echo __('If you enjoy <b>Webmaster Tools</b> plugin, you may desactivate Google Tools'); ?>
                     <a href="<?php echo $p_url; ?>&action=5" class="button wmt green"><?php echo __("Deactivate it for me"); ?></a>
                 </em>
             </p>
