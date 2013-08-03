@@ -1,7 +1,7 @@
 <html>
     <head>
     <title><?php echo __('Webmaster Tools'); ?></title>
-    <style>
+    <style type="text/css">
         a.button.wmt:active { color: black; }
         a.button.wmt { padding: 0.5em; }
         a.button.wmt:hover {
@@ -111,7 +111,7 @@
         <?php endif; ?>
 
         <form method="post"  action="<?php echo($p_url); ?>">
-            <?php echo $core->formNonce() . "\n"; ?>
+        <div><?php echo $core->formNonce() . "\n"; ?></div>
             <fieldset>
                 <legend>Google</legend>
                 <div class="two-cols">
@@ -119,7 +119,6 @@
                         <label><?php echo __('Enter here you Google Analytics Account ID'); ?></label>
                         <input type="text" name="google_uacct"
                                value="<?php echo $wmt->get('google_uacct'); ?>"
-                               placeholder="<?php echo __("Your Google Analytics account"); ?>"
                                size="50" />
                     </div>
 
@@ -127,7 +126,6 @@
                         <label><?php echo __('Enter here you Google Webmaster code'); ?></label>
                         <input type="text" name="google_verify"
                                value="<?php echo $wmt->get('google_verify'); ?>"
-                               placeholder="<?php echo __("Your Google WMT id"); ?>"
                                size="60" />
                     </div>
                 </div>
@@ -138,11 +136,12 @@
                         <label><?php echo __('Enter here you\'re Bing Webmaster tool code'); ?></label>
                         <input type="text" name="bing_verify"
                                value="<?php echo $wmt->get('bing_verify'); ?>"
-                               placeholder="<?php echo __("Your Bing verify ID"); ?>"
                                size="50" />
                     </div>
             </fieldset>
-            <input type="submit" value="<?php echo __('Save'); ?>" />
+            <div>
+                <input type="submit" value="<?php echo __('Save'); ?>" />
+            </div>
         </form>
     </body>
 </html>

@@ -24,7 +24,7 @@ $this->registerModule(
 	/* Name */		'Webmaster Tools',
 	/* Description*/	'Handles Google tools (Analytics & Webmaster Tools) and Bing Tools',
 	/* Author */	        'Regis FLORET',
-	/* Version */	        '0.5.1',
+	/* Version */	        '0.5.2',
 	/* Permissions */	'contentadmin'
 );
 ?>

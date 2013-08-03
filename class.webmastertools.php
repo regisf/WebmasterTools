@@ -196,9 +196,12 @@ class webmasterTools
         }
     }
 
+    /*
+     * Redirect to the plugin address. This is due to the plugin architecture I choosed
+     */
     public function redirectToRoot()
     {
-        http::redirect('http://' . $_SERVER['REMOTE_ADDR'] . $_SERVER['PHP_SELF'] . '?p=WebmasterTools');
+        http::redirect('http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'] . '?p=WebmasterTools');
     }
 
 }
