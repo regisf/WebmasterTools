@@ -20,7 +20,7 @@
  *  59 Temple Place, Suite 330, Boston, MA  02111-1307  USA    *
 \***************************************************************/
 
-$_menu['Plugins']->addItem(
+$_menu['Blog']->addItem(
     __('Webmaster Tools'),
     'plugin.php?p=WebmasterTools',
     'index.php?pf=WebmasterTools/icon.png',
